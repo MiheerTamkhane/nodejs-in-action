@@ -4,7 +4,8 @@
   "description": "Repo for learning node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MiheerTamkhane/nodejs-in-action/issues"
   },
-  "homepage": "https://github.com/MiheerTamkhane/nodejs-in-action#readme"
+  "homepage": "https://github.com/MiheerTamkhane/nodejs-in-action#readme",
+  "devDependencies": {
+    "@types/node": "^25.0.3"
+  }
 }

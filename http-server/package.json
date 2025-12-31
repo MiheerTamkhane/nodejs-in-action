@@ -1,0 +1,15 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "### Description",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch index.ts"
+  },
+  "author": "Miheer",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.0.3"
+  }
+}
