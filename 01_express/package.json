@@ -1,0 +1,16 @@
+{
+  "name": "01_express",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node --watch index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1"
+  }
+}
