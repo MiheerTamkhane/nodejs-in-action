@@ -1,0 +1,10 @@
+
+services: 
+  postgres:
+    image: postgres:17.4
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: miheer
+      POSTGRES_DB: todolist
+    ports:
+      - "5432:5432"
