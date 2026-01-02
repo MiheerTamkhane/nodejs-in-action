@@ -1,5 +1,5 @@
 
-const { BOOKS } = require('../db/books');
+const { BOOKS } = require('../models/book');
 
 exports.getAllbooks =  (req, res) => {
     const response = {
